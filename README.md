@@ -12,7 +12,7 @@ A Pokemon game written in C and C++ that is played in the terminal.
 
 **(5)** Run command "./pokemon"
 
-**(6) *Optional*** Set number of trainers and rivals with "./pokemon --numtrainers [num]". Example: ./pokemon --numtrainers 5
+**(6) *Optional*** Set number of trainers with "./pokemon --numtrainers [num]". Example: ./pokemon --numtrainers 5
 
 ## Key Bindings, Map, and Trainer Information
 ### Key Bindings
