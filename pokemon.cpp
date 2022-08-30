@@ -1432,10 +1432,22 @@ int main(int argc, char *argv[])
     std::string filename;
     std::string beginPath;
     std::string line;
-    if (std::filesystem::is_directory("/home/angelo/coms327/pokefinal/pokedex"))
+
+    /* SET PATH TO POKEDEX HERE */
+    std::string dir = "";
+    /* SET PATH TO POKEDEX HERE */
+
+    if (dir == "")
     {
-        beginPath = "/home/angelo/coms327/pokefinal/pokedex/";
+        std::cout << "Path to pokedex folder is not set. (Line 1437)" << std::endl;
+        endwin();
+        return 0;
     }
+    else if (std::filesystem::is_directory(dir))
+    {
+        beginPath = dir + "/";
+    }
+
     std::ifstream input;
     AllPokemonArrays *allArrays = new AllPokemonArrays();
     filename = beginPath + "pokemon.csv";
