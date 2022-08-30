@@ -47,3 +47,37 @@ A Pokemon game written in C and C++ that is played in the terminal.
 **B (capital)** Access the player's bag
 
 **Q (capital)** Quit game
+
+### Map Information
+There are 399x399 randomly generated maps. Each map is 80x21 characters. To go to the next map, travel to the end of a path on any border of the map.
+
+**%** Boulder (cannot step over boulders)
+
+**#** Path (no chance of wild pokemon encounter)
+
+**M** PokeMart (use > to enter, < to exit)
+
+**C** PokeCenter (use > to enter, < to exit)
+
+**:** Tall Grass (chance of wild pokemon encounter)
+
+**.** Clearing (cannot step over clearings)
+
+**"** Tree (cannot step over trees)
+
+### Trainer Information
+If any trainer reaches the player, a pokemon battle is triggered. Each trainer moves differently (except for hikers and rivals).
+
+**@** Player
+
+**h** Hiker: They path to the player using dijkstra's algorithm
+
+**r** Rival: They path to the player using dijkstra's algorithm
+
+**p** Pacer: They start with a direction and walk until they hit a terrain they cannot step over, then turn arround and repeat
+
+**w** Wanderer: They do not leave the terrain that they were spawned on. They walk in a random direction until they hit the edge of the terrain, then turn arround and continue
+
+**s** Stationary: They don't move
+
+**n** Random walker: They move similar to a pacer, but they can cross any terrain
