@@ -83,6 +83,9 @@ If any trainer reaches the player, a pokemon battle is triggered. Each trainer m
 **n** Random walker: They move similar to a pacer, but they can cross any terrain
 
 ## More Information
-This was a project in COM S 327 at Iowa State taught by Jeremy Sheaffer. People had the option to use the professor's code after each assignment, but I am uploading my project because I used none of the professor's code (except for heap.c and heap.h). 
+This was a project in COM S 327 at Iowa State taught by Jeremy Sheaffer. People had the option to use the professor's code after each assignment, but I am uploading my project because I used none of the professor's code (except for heap.c and heap.h). Most of the project is coded in C++, with some areas coded in C. The ncurses library is used often to display different windows and interfaces while running the game.
 
 When first starting the game, the player can choose a starting pokemon out of 3 choices. The player is spawned in with 10 PokeBalls, Potions, and Revives. After defeating any trainer, the player is rewarded with a certain amount of PokeBucks to spend at a PokeMart. The player is only able to have 6 pokemon at a time, so each pokemon caught after this will be sent to the PokeCenter. When visiting a PokeCenter, the player can heal all their pokemon and exchange pokemon in the storage. 
+
+### Pokemon Battles
+When you encounter a trainer or wild pokemon, a basic UI displays the player's and enemy's stats and the possible options for the player. It is similar to the regular pokemon games: You have the option to fight, access your bag, run, or switch pokemon (Note: you cannot run while battling a trainer, and you cannot catch a trainer's pokemon). 
