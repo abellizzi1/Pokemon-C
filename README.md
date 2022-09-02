@@ -87,5 +87,7 @@ This was a project in COM S 327 at Iowa State University taught by Jeremy Sheaff
 
 When first starting the game, the player can choose a starting pokemon out of 3 choices. The player is spawned in with 10 PokeBalls, Potions, and Revives. After defeating any trainer, the player is rewarded with a certain amount of PokeBucks to spend at a PokeMart. The player is only able to have 6 pokemon at a time, so each pokemon caught after this will be sent to the PokeCenter. When visiting a PokeCenter, the player can heal all their pokemon and exchange pokemon in the storage. 
 
+After every battle, the player's current pokemon gain experience to level up. As the player progresses and moves away from the starting map, the trainers' pokemon will rise in level and difficulty.
+
 ### Pokemon Battles
 When you encounter a trainer or wild pokemon, a basic UI displays the player's and enemy's stats and the possible options for the player. It is similar to the regular pokemon games: You have the option to fight, access your bag, run, or switch pokemon (Note: you cannot run while battling a trainer, and you cannot catch a trainer's pokemon). 
