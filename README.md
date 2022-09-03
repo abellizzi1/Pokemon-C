@@ -1,5 +1,5 @@
 # Pokemon-C
-A Pokemon game written in C and C++ that is played in the terminal.
+A Pokemon game written in C and C++ that is played in the linux terminal.
 
 ## How To Play
 **(1)** Download all files from this repository (including pokedex folder)
